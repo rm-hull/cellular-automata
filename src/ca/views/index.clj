@@ -7,11 +7,11 @@
 (defpartial layout [& content]
   (html5
     [:head
-     [:title "Cellular Autonoma"]
+     [:title "Cellular Automata"]
      (include-css "/css/default.css")
      (include-css "/css/ribbon.css")
-     (include-js "https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js")
-     (include-js "/cljs/cs.js")]
+     (include-js "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+     (include-js "/cljs/ca.js")]
     [:body
      [:div#wrapper content]]))
 
@@ -25,7 +25,7 @@
   (layout
     (html
       [:div
-        (ribbon "Fork me on GitHub!" "https://github.com/rm-hull/cellular-autonoma")
+        (ribbon "Fork me on GitHub!" "https://github.com/rm-hull/cellular-automata")
         [:div#info]
         [:canvas#world]
        ])))

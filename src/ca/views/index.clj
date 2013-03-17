@@ -1,4 +1,4 @@
-(ns turmites.views.index
+(ns ca.views.index
   (:use [noir.core :only [defpage defpartial]]
         [hiccup.core :only [html]] 
         [hiccup.page :only [include-css include-js html5]]

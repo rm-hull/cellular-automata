@@ -2,5 +2,9 @@ pom.xml
 *jar
 /lib/
 /classes/
-/targets/
+/target/
 .lein-deps-sum
+.lein-repl-history
+.lein-cljsbuild-compiler-0/
+resources/public/cljs/
+hs_err_pid*.log

@@ -6,10 +6,10 @@ ClojureScript rather than pushing/pulling from the server.
 Demonstration site: http://cellular-automata.destructuring-bind.org - randomly picks
 one of:
 
-    - Conways Life 
-    - Semi-vote
-    - Vichniac vote (stable & unstable)
-    - Fredkin
+- Conways Life 
+- Semi-vote
+- Vichniac vote (stable & unstable)
+- Fredkin
 
 TODO
 ----

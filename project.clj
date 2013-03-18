@@ -14,7 +14,7 @@
        {:pretty-print true,
         :output-to "resources/public/cljs/ca.js",
         :externs ["externs/jquery.js"],
-        ;:optimizations :advanced,
+        :optimizations :advanced,
         :print-input-delimiter true}}]}
   :hooks [;leiningen.dalap 
           leiningen.cljsbuild]
